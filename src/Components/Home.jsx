@@ -16,7 +16,7 @@ const Home = () => {
                         <button className="btn rounded-full flex items-center bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 inline-block text-transparent bg-clip-text hover:border-emerald-500">Download Resume <span className="text-black"><HiDownload /></span></button>
                     </div>
                     <div>
-                        <button className="btn rounded-full hover:bg-gradient-to-r hover:from-blue-600 hover:to-green-500 hover:text-white ease-in-out duration-300">Say Hello <FaLongArrowAltRight /></button>
+                        <button className="btn rounded-full bg-gradient-to-r from-blue-600 to-green-500 text-white">Say Hello <FaLongArrowAltRight /></button>
                     </div>
                 </div>
             </div>
