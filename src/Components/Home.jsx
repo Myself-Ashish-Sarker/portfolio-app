@@ -1,4 +1,4 @@
-import bannerImg from "../../public/images/cover1.jpg";
+import bannerImg from "/images/cover1.jpg";
 import { HiDownload } from "react-icons/hi";
 import { FaLongArrowAltRight } from "react-icons/fa";
 
