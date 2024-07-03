@@ -5,7 +5,7 @@ import { FaLongArrowAltRight } from "react-icons/fa";
 
 const Home = () => {
     return (
-        <div className="flex flex-col lg:flex-row md:flex-col justify-center items-center gap-24 mt-24 bg-gradient-to-b from-white to-[#F9FBE7] pb-10">
+        <div className="flex flex-col lg:flex-row md:flex-col justify-center items-center gap-24 mt-24 bg-gradient-to-b from-white to-[#F9FBE7] pb-24">
             <div>
                 <h1 className='text-6xl'>👋 Hey there,</h1>
                 <h1 className="text-6xl">It's Ashish Sarker.</h1>
