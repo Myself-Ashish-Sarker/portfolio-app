@@ -5,6 +5,7 @@ import About from "../Components/About";
 import Services from "../Components/Services";
 import Contact from "../Components/Contact";
 import LetsTalk from "../Components/LetsTalk";
+import Works from "../Components/Works";
 
 const router = createBrowserRouter([
     {
@@ -30,6 +31,10 @@ const router = createBrowserRouter([
             {
                 path: "/letstalk",
                 element: <LetsTalk></LetsTalk>
+            },
+            {
+                path: "/works",
+                element: <Works></Works>
             }
         ]
     },
