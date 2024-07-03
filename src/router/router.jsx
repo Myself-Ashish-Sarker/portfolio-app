@@ -5,7 +5,7 @@ import About from "../Components/About";
 import Services from "../Components/Services";
 import Contact from "../Components/Contact";
 import LetsTalk from "../Components/LetsTalk";
-import Works from "../Components/Works";
+import Projects from "../Components/Projects";
 
 const router = createBrowserRouter([
     {
@@ -33,8 +33,8 @@ const router = createBrowserRouter([
                 element: <LetsTalk></LetsTalk>
             },
             {
-                path: "/works",
-                element: <Works></Works>
+                path: "/projects",
+                element: <Projects></Projects>
             }
         ]
     },
