@@ -13,7 +13,7 @@ const Home = () => {
 
                 <div className="flex justify-center lg:justify-start mt-5 gap-5">
                     <div>
-                        <button className="btn rounded-full flex items-center bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 inline-block text-transparent bg-clip-text hover:border-emerald-500">Download Resume <span className="text-black"><HiDownload /></span></button>
+                        <button className="btn rounded-full flex items-center bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400  text-transparent bg-clip-text hover:border-emerald-500">Download Resume <span className="text-black"><HiDownload /></span></button>
                     </div>
                     <div>
                         <button className="btn rounded-full bg-gradient-to-r from-blue-600 to-green-500 text-white">Say Hello <FaLongArrowAltRight /></button>

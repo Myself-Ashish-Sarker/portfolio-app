@@ -6,6 +6,7 @@ import Services from "../Components/Services";
 import Contact from "../Components/Contact";
 import LetsTalk from "../Components/LetsTalk";
 import Projects from "../Components/Projects";
+import Web01 from "../Components/Web01";
 
 const router = createBrowserRouter([
     {
