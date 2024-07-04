@@ -21,7 +21,7 @@ const Skills = () => {
 
                     <p className='mt-4 w-[32rem] mx-auto font-semibold'>Showcasing My Skills Both Front and Back End</p>
 
-                    <div className='mt-10 flex justify-center gap-4'>
+                    <div className='mt-10 grid grid-cols-2 lg:grid-cols-6 md:grid-cols-3 justify-items-center px-12 lg:px-52 md:px-24 justify-center gap-4'>
                         <div sty className='skill flex items-center justify-center w-36 h-36 rounded-lg'>
                             <img className='w-24 h-24' src={html} alt="" />
                         </div>
@@ -42,7 +42,7 @@ const Skills = () => {
                         </div>
                     </div>
 
-                    <div className='mt-10 flex justify-center gap-4'>
+                    <div className='mt-10 grid items-center grid-cols-2 lg:grid-cols-6 md:grid-cols-3 justify-items-center px-12 lg:px-52 md:px-24 justify-center gap-4'>
                         <div sty className='skill flex items-center justify-center w-36 h-36 rounded-lg'>
                             <img className='w-24 h-24' src={firebase} alt="" />
                         </div>
