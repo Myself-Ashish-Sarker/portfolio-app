@@ -9,7 +9,7 @@ const Projects = () => {
     return (
         <div className="bg-gradient-to-b from-white to-[#F9FBE7]">
             <div className="text-center mt-8 ">
-                <h1 style={{ fontFamily: "'Bebas Neue', sans-serif" }} className=' text-7xl font-bold bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 inline-block text-transparent bg-clip-text'>Featured Projects</h1>
+                <h1 style={{ fontFamily: "'Bebas Neue', sans-serif" }} className='text-7xl font-bold bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 inline-block text-transparent bg-clip-text'>Featured Projects</h1>
             </div>
 
             <div className="mt-4 pb-4 space-y-2 grid justify-items-center grid-cols-1 lg:grid-cols-3 md:grid-cols-2">
