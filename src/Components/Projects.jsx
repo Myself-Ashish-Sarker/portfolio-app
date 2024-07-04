@@ -12,7 +12,7 @@ const Projects = () => {
                 <h1 style={{ fontFamily: "'Bebas Neue', sans-serif" }} className=' text-7xl font-bold bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 inline-block text-transparent bg-clip-text'>Featured Projects</h1>
             </div>
 
-            <div className="mt-10 pb-5 space-y-2 grid justify-items-center grid-cols-1 lg:grid-cols-3 md:grid-cols-2">
+            <div className="mt-4 pb-9 space-y-2 grid justify-items-center grid-cols-1 lg:grid-cols-3 md:grid-cols-2">
                 {/* first box */}
                 <div>
                     <div className="card bg-base-100 w-96 shadow-xl">
