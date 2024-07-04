@@ -7,7 +7,7 @@ import { MdSubject } from "react-icons/md";
 const LetsTalk = () => {
     return (
         <div className='bg-gradient-to-b from-white to-[#F9FBE7]'>
-            <div className="mt-6 pb-2 flex justify-center">
+            <div className="mt-5 pb-2 flex justify-center">
                 <h1 className="text-6xl font-bold bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 inline-block text-transparent bg-clip-text">Contact Me</h1>
             </div>
 
@@ -17,7 +17,7 @@ const LetsTalk = () => {
                 <h1 className="mt-4 text-center w-[32rem] font-semibold">Let's Connect and Create Something Amazing Together. Reach Out to Start a Conversation About Your Project or Idea Today!</h1>
             </div>
 
-            <div className="flex justify-center gap-5 items-center mt-10">
+            <div className="flex justify-center gap-5 items-center mt-10 px-5">
                 <div className="flex justify-center w-72 h-10 border-2 border-black">
                     <div className="flex items-center gap-2">
                         <IoMdMail className="mt-1" /> myselfashishsarker@gmail.com
