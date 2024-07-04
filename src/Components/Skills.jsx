@@ -14,7 +14,7 @@ const Skills = () => {
     return (
         <div className='bg-gradient-to-b from-white to-[#F9FBE7]'>
             <div>
-                <div className='mt-4 text-center pb-16'>
+                <div className='mt-4 text-center pb-14'>
                     <h1 className='pb-4 text-7xl font-bold bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 inline-block text-transparent bg-clip-text'>Showcasing Skills</h1>
 
                     <hr style={{borderWidth: '1px', width: '50rem', margin: '0 auto'}} />

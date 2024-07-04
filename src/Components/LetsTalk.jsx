@@ -7,7 +7,7 @@ import { MdSubject } from "react-icons/md";
 const LetsTalk = () => {
     return (
         <div className='bg-gradient-to-b from-white to-[#F9FBE7]'>
-            <div className="mt-5 pb-2 flex justify-center">
+            <div className="mt-4 pb-2 flex justify-center">
                 <h1 className="text-6xl font-bold bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 inline-block text-transparent bg-clip-text">Contact Me</h1>
             </div>
 

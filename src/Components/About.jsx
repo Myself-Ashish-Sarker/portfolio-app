@@ -9,7 +9,7 @@ const About = () => {
 
             <hr style={{ borderWidth: '1px', width: '50rem', margin: '0 auto' }} />
 
-            <div className='mt-10 ml-36'>
+            <div className='mt-10 lg:ml-36'>
                 <div className='w-52 h-10 flex items-center justify-center bg-black text-white'>
                     <h1 className=''>Educational Qualification</h1>
                 </div>
@@ -25,7 +25,7 @@ const About = () => {
                 </div>
             </div>
 
-            <div className='mt-10 pb-[7.7rem] ml-36'>
+            <div className='mt-10 pb-[7.5rem] lg:ml-36'>
                 <div className='w-52 h-10 flex items-center justify-center bg-black text-white'>
                     <h1 className=''>Technical Qualification</h1>
                 </div>

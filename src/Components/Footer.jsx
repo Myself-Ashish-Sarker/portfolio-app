@@ -13,13 +13,10 @@ const Footer = () => {
             </div>
 
             <div className="flex gap-4 font-semibold text-sm">
-                <p><Link className='bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 inline-block text-transparent bg-clip-text' to="/">Home</Link></p>
-                <p><Link to="/about">About</Link></p>
-                <p><Link to="/works">Works</Link></p>
-                <p><Link to="/contact">Contact</Link></p>
+                <p>created by <span className="text-lg font-bold">Ashish Sarker</span></p>
             </div>
         </div>
     );
 };
 
-export default Footer;
+export default Footer
