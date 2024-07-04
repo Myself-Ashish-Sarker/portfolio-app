@@ -72,14 +72,27 @@ const Projects = () => {
                         <div className="card-body">
                             <h2 className="card-title">Phoneix Gym</h2>
                             <p><span className="font-semibold">Technology Used:</span> html, css, javascript, react, firebox, mongodb</p>
-                            <p><span className="font-semibold">Live Link:</span> <a className="text-emerald-500 hover:underline" href="https://packageboy-app.netlify.app/">Live Link</a></p>
+                            <p><span className="font-semibold">Live Link:</span> <a className="text-emerald-500 hover:underline" href="https://fitness-assign-app.netlify.app/">Live Link</a></p>
 
                             {/* modal */}
                             <button className="btn btn-outline btn-secondary" onClick={() => document.getElementById('my_modal_5').showModal()}>Learn More</button>
                             <dialog id="my_modal_5" className="modal modal-bottom sm:modal-middle">
-                                <div className="modal-box">
-                                    <h3 className="font-bold text-lg">Hello!</h3>
-                                    <p className="py-4">Press ESC key or click the button below to close</p>
+                                <div className="modal-box bg-slate-800">
+                                    <h3 className="font-bold text-2xl text-center text-white">Project Details</h3>
+                                    <p className="py-4 text-white"><span>This Project is Mainly a Demonstaration of a Simplified Gym Web App with a Simplified Design</span></p>
+                                    <p className="text-white">
+                                        <div className="flex gap-2 items-center">
+                                            <div>You can use this app for</div>
+                                            <div><BsDashLg className="mt-1" /></div>
+                                        </div>
+                                        <ul>
+                                            <li className="flex items-center"><TbPointFilled /> Login and Sign Up</li>
+                                            <li className="flex items-center"><TbPointFilled /> Simplified Design</li>
+                                            <li className="flex items-center"><TbPointFilled /> Minimal UI/UX</li>
+                                            <li className="flex items-center"><TbPointFilled /> User Friendly</li>
+                                        </ul>
+                                    </p>
+                                    <p className="mt-4 text-white "><span>Github Repo:</span> <a className="hover:underline" target="_blank" href="https://github.com/Myself-Ashish-Sarker/fitness-app">Click to View</a></p>
                                     <div className="modal-action">
                                         <form method="dialog">
                                             {/* if there is a button in form, it will close the modal */}
@@ -104,16 +117,29 @@ const Projects = () => {
                                 alt="Shoes" />
                         </figure>
                         <div className="card-body">
-                            <h2 className="card-title">Package Boy</h2>
+                            <h2 className="card-title">Tourism App</h2>
                             <p><span className="font-semibold">Technology Used:</span> html, css, javascript, react, firebox, mongodb</p>
-                            <p><span className="font-semibold">Live Link:</span> <a className="text-emerald-500 hover:underline" href="https://packageboy-app.netlify.app/">Live Link</a></p>
+                            <p><span className="font-semibold">Live Link:</span> <a target="_blank" className="text-emerald-500 hover:underline" href="https://assign-tourism-app.netlify.app/">Live Link</a></p>
 
                             {/* modal */}
                             <button className="btn btn-outline btn-secondary" onClick={() => document.getElementById('my_modal_5').showModal()}>Learn More</button>
                             <dialog id="my_modal_5" className="modal modal-bottom sm:modal-middle">
-                                <div className="modal-box">
-                                    <h3 className="font-bold text-lg">Hello!</h3>
-                                    <p className="py-4">Press ESC key or click the button below to close</p>
+                                <div className="modal-box bg-slate-800">
+                                    <h3 className="font-bold text-2xl text-center text-white">Project Details</h3>
+                                    <p className="py-4 text-white"><span>This Project is Mainly a Demonstaration of a Simplified Gym Web App with a Simplified Design</span></p>
+                                    <p className="text-white">
+                                        <div className="flex gap-2 items-center">
+                                            <div>You can use this app for</div>
+                                            <div><BsDashLg className="mt-1" /></div>
+                                        </div>
+                                        <ul>
+                                            <li className="flex items-center"><TbPointFilled /> Login and Sign Up</li>
+                                            <li className="flex items-center"><TbPointFilled /> Simplified Design</li>
+                                            <li className="flex items-center"><TbPointFilled /> Minimal UI/UX</li>
+                                            <li className="flex items-center"><TbPointFilled /> User Friendly</li>
+                                        </ul>
+                                    </p>
+                                    <p className="mt-4 text-white "><span>Github Repo:</span> <a className="hover:underline" target="_blank" href="https://github.com/Myself-Ashish-Sarker/tourism-app">Click to View</a></p>
                                     <div className="modal-action">
                                         <form method="dialog">
                                             {/* if there is a button in form, it will close the modal */}
@@ -128,8 +154,8 @@ const Projects = () => {
                     </div>
                 </div>
                 {/* third box */}
-            </div>
-        </div>
+            </div >
+        </div >
     );
 };
 
