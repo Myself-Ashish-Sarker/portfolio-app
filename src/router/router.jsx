@@ -3,10 +3,9 @@ import Root from "../Components/Root";
 import Home from "../Components/Home";
 import About from "../Components/About";
 import Services from "../Components/Services";
-import Contact from "../Components/Contact";
 import LetsTalk from "../Components/LetsTalk";
 import Projects from "../Components/Projects";
-import Web01 from "../Components/Web01";
+import Skills from "../Components/Skills";
 
 const router = createBrowserRouter([
     {
@@ -26,8 +25,8 @@ const router = createBrowserRouter([
                 element: <Services></Services>
             },
             {
-                path: "/contact",
-                element: <Contact></Contact>
+                path: "/skills",
+                element: <Skills></Skills>
             },
             {
                 path: "/letstalk",
