@@ -1,8 +1,8 @@
-import { Link } from "react-router-dom";
 import web01 from "/images/web01.png";
 import web02 from "/images/web02.png";
 import web03 from "/images/web03.png";
-
+import { BsDashLg } from "react-icons/bs";
+import { TbPointFilled } from "react-icons/tb";
 
 const Projects = () => {
 
@@ -30,8 +30,22 @@ const Projects = () => {
                             <button className="btn btn-outline btn-secondary" onClick={() => document.getElementById('my_modal_5').showModal()}>Learn More</button>
                             <dialog id="my_modal_5" className="modal modal-bottom sm:modal-middle">
                                 <div className="modal-box bg-slate-800">
-                                    <h3 className="font-bold text-lg">Hello!</h3>
-                                    <p className="py-4">Press ESC key or click the button below to close</p>
+                                    <h3 className="font-bold text-2xl text-center text-white">Project Details</h3>
+                                    <p className="py-4 text-white"><span>This Project is Mainly a Demonstaration of a Simplified Delivery Web App with a Dashboard and Can View from the Perspective of Admin, Delivery Man and User</span></p>
+                                    <p className="text-white">
+                                        <div className="flex gap-2 items-center">
+                                            <div>You can use this app for</div>
+                                            <div><BsDashLg className="mt-1" /></div>
+                                        </div>
+                                        <ul>
+                                            <li className="flex items-center"><TbPointFilled /> Login and Sign Up</li>
+                                            <li className="flex items-center"><TbPointFilled /> Use a Dashborad</li>
+                                            <li className="flex items-center"><TbPointFilled /> Admin, Delivery Man and User Login</li>
+                                            <li className="flex items-center"><TbPointFilled /> Minimal UI/UX</li>
+                                            <li className="flex items-center"><TbPointFilled /> User Friendly</li>
+                                        </ul>
+                                    </p>
+                                    <p className="mt-4 text-white "><span>Github Repo:</span> <a className="hover:underline" target="_blank" href="https://github.com/Myself-Ashish-Sarker/packageboy-app">Click to View</a></p>
                                     <div className="modal-action">
                                         <form method="dialog">
                                             {/* if there is a button in form, it will close the modal */}
