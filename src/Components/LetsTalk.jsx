@@ -3,8 +3,29 @@ import { IoMdMail } from "react-icons/io";
 import { FaPhoneAlt } from "react-icons/fa";
 import { LuDownload } from "react-icons/lu";
 import { MdSubject } from "react-icons/md";
+import { useRef } from 'react';
 
 const LetsTalk = () => {
+
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs
+            .sendForm('service_84t0bjw', 'template_on8mm78', form.current, {
+                publicKey: '9WRsoyhoX2SrW8FJh',
+            })
+            .then(
+                () => {
+                    console.log('SUCCESS!');
+                },
+                (error) => {
+                    console.log('FAILED...', error.text);
+                },
+            );
+    };
+
     return (
         <div className='bg-gradient-to-b from-white to-[#F9FBE7]'>
             <div className="mt-4 pb-2 flex justify-center">
@@ -48,25 +69,25 @@ const LetsTalk = () => {
                             <h1 className="text-3xl pb-3">Send Me a Email</h1>
                         </div>
 
-                        <form action="">
+                        <form ref={form} onSubmit={sendEmail} action="">
 
                             <div className="flex justify-center gap-4">
                                 <div>
                                     <label className="input input-bordered flex items-center gap-2">
-                                        <IoMdMail />
-                                        <input type="text" className="grow" placeholder="Email" name="email" />
+                                        <MdSubject />
+                                        <input type="text" className="grow" placeholder="Name" name="from_name" />
                                     </label>
                                 </div>
                                 <div>
                                     <label className="input input-bordered flex items-center gap-2">
-                                        <MdSubject />
-                                        <input type="text" className="grow" placeholder="Subject" name="subject" />
+                                        <IoMdMail />
+                                        <input type="text" className="grow" placeholder="Email" name="from_email" />
                                     </label>
                                 </div>
                             </div>
 
                             <div className="flex justify-center mt-2 ">
-                                <textarea name="text" className="textarea textarea-bordered w-[31rem]" placeholder="Share Your Thougths"></textarea>
+                                <textarea name="message" className="textarea textarea-bordered w-[31rem]" placeholder="Share Your Thougths"></textarea>
                             </div>
 
                             <div className="flex justify-center mt-5">
