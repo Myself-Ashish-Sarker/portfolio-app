@@ -38,7 +38,7 @@ const LetsTalk = () => {
                 <h1 className="mt-4 text-center w-[32rem] font-semibold">Let's Connect and Create Something Amazing Together. Reach Out to Start a Conversation About Your Project or Idea Today!</h1>
             </div>
 
-            <div className="flex justify-center gap-5 items-center mt-10 px-5">
+            <div className="lg:px-72 grid grid-cols-1 gap-2 lg:grid-cols-2 place-items-center mt-10">
                 <div className="flex justify-center w-72 h-10 border-2 border-black">
                     <div className="flex items-center gap-2">
                         <IoMdMail className="mt-1" /> myselfashishsarker@gmail.com
@@ -48,15 +48,6 @@ const LetsTalk = () => {
                     <div className="flex items-center gap-2">
                         <FaPhoneAlt className="mt-1" /> +8801531350224
                     </div>
-                </div>
-                <div>
-                    <a href="/resume/dummy-resume.pdf">
-                        <button className="btn btn-outline">
-                            <div className="flex items-center gap-2">
-                                Download Resume <LuDownload />
-                            </div>
-                        </button>
-                    </a>
                 </div>
             </div>
 
@@ -71,7 +62,7 @@ const LetsTalk = () => {
 
                         <form ref={form} onSubmit={sendEmail} action="">
 
-                            <div className="flex justify-center gap-4">
+                            <div className="grid grid-cols-1 px-10 lg:grid-cols-2 lg:px-10 justify-center gap-4">
                                 <div>
                                     <label className="input input-bordered flex items-center gap-2">
                                         <MdSubject />
@@ -86,8 +77,8 @@ const LetsTalk = () => {
                                 </div>
                             </div>
 
-                            <div className="flex justify-center mt-2 ">
-                                <textarea name="message" className="textarea textarea-bordered w-[31rem]" placeholder="Share Your Thougths"></textarea>
+                            <div className="flex px-5 justify-center mt-4 lg:mt-2 ">
+                                <textarea name="message" className="textarea textarea-bordered w-[20rem] lg:w-[31rem]" placeholder="Share Your Thougths"></textarea>
                             </div>
 
                             <div className="flex justify-center mt-5">
