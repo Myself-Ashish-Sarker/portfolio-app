@@ -1,9 +1,9 @@
 import './skills.css';
 import { IoMdMail } from "react-icons/io";
 import { FaPhoneAlt } from "react-icons/fa";
-import { LuDownload } from "react-icons/lu";
 import { MdSubject } from "react-icons/md";
 import { useRef } from 'react';
+import Swal from 'sweetalert2';
 
 const LetsTalk = () => {
 
@@ -19,6 +19,14 @@ const LetsTalk = () => {
             .then(
                 () => {
                     console.log('SUCCESS!');
+                    Swal.fire({
+                        position: "center",
+                        icon: "success",
+                        title: "Thank You for sending me an email",
+                        showConfirmButton: false,
+                        timer: 1500
+                    });
+                    form.current.reset();
                 },
                 (error) => {
                     console.log('FAILED...', error.text);
